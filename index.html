@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title> Cat photo app </title>
+    <link rel="stylesheet" type="text/css" href="./styles.css"> 
+  </head>
+  <body id="body"> 
+    <h2>CatPhotoApp</h2>
+  <main>
+   <p>Click here to view more <a href="https://www.pexels.com/es-es/buscar/cats/">cat photos</a>.</p>
+
+  <a href="#"><img class="black-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+<div>
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+</div>
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <p> We would like to know more about your cat! How would describe your cat? </p>
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" > Indoor cat </label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor cat </label><br>
+    <p> If you had to give your cat one personality trait, which one would it be?</p>
+    <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" > Loving</label>
+    <label for="lazy"><input id="lazy" type="checkbox" name="lazy" value="lazy"> Lazy</label>
+    <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+    <p> Now that we know some things about your cat, we would really like to see him/her, could you type an URL that leads us to a photo of your cat? <br><br> <label for="URL">
+    <input id="URL" type="text" name="URL" placeholder="cat photo URL" required>
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+  </body>
+</html>

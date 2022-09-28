@@ -1,0 +1,14 @@
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#body {
+  background-color: #D6F0B2;
+}
+
+.black-border {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 150px;
+}
